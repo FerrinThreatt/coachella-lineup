@@ -55,7 +55,7 @@ p.first-one{
   line-height: 0px;  
   margin-bottom: 20px;
   text-align: left;
-  margin-left: 30px;
+  margin-left: 20px;
   font-family: coachella;
   color: black;
 }
@@ -63,7 +63,8 @@ p.first-five{
   font-size:15px;
   color: white;
   text-align: left;
-  margin-left: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
   font-family: coachella;
   color: black;
 }
@@ -73,7 +74,7 @@ p.second-one{
   line-height: 0px;  
   margin-bottom: 20px;
   text-align: left;
-  margin-left: 30px;
+  margin-left: 20px;
   font-family: coachella;
   color: black;
 }
@@ -81,8 +82,9 @@ p.last-few{
   font-size:15px;
   color: black;
   text-align: left;
-  margin-left: 30px;
+  margin-left: 20px;
   font-family: coachella;
+  margin-right: 20px;
 }
 
  p.top-genres{ 
@@ -91,16 +93,18 @@ p.last-few{
   line-height: 0px;  
   margin-bottom: 20px;
   text-align: left;
-  margin-left: 30px;
+  margin-left: 20px;
   font-family: coachella; 
   color: black;
+
  }
  p.genres{
-  font-size: 11px;
+  font-size: 15px;
   font-family: coachella;
   text-align: left;
-  margin-left: 30px;
+  margin-left: 20px;
   color: black;
+  margin-right: 20px;
 
  }
  
