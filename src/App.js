@@ -4,7 +4,7 @@ import React from 'react';
 import background from "./images/background.jpeg";
 
 function App() {
-    const CLIENT_ID = "191d6ec4327045139479d0bec839da14"
+    const CLIENT_ID = ""
     const REDIRECT_URI = "https://coachella-lineup.web.app/"
     // const REDIRECT_URI = "http://localhost:3000/"
     // const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize"
