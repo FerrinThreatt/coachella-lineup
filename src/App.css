@@ -41,17 +41,69 @@
   font-family: myFirstFont;
   src: url("./fonts/ChellaType-Regular.ttf");
 }
+@font-face {
+  font-family: coachella;
+  src: url("./fonts/Eurostile-Condensed-Bold.otf");
+}
 
 h1{
   font-family: myFirstFont;
+  color: black;
 }
-p.title:nth-child(1){
+p.first-one{
   font-size:36px;
-  
- }
+  line-height: 0px;  
+  margin-bottom: 20px;
+  text-align: left;
+  margin-left: 30px;
+  font-family: coachella;
+  color: black;
+}
+p.first-five{
+  font-size:15px;
+  color: white;
+  text-align: left;
+  margin-left: 30px;
+  font-family: coachella;
+  color: black;
+}
+p.second-one{
+  margin-top: 10px;
+  font-size:36px;
+  line-height: 0px;  
+  margin-bottom: 20px;
+  text-align: left;
+  margin-left: 30px;
+  font-family: coachella;
+  color: black;
+}
+p.last-few{
+  font-size:15px;
+  color: black;
+  text-align: left;
+  margin-left: 30px;
+  font-family: coachella;
+}
 
- p.genres:nth-child(1){ 
-  font-size: 11px;;
+ p.top-genres{ 
+  margin-top: 10px;
+  font-size:36px;
+  line-height: 0px;  
+  margin-bottom: 20px;
+  text-align: left;
+  margin-left: 30px;
+  font-family: coachella; 
+  color: black;
  }
+ p.genres{
+  font-size: 11px;
+  font-family: coachella;
+  text-align: left;
+  margin-left: 30px;
+  color: black;
+
+ }
+ 
+
 /* 
  .items:nth-child(1){ color:black; } */
