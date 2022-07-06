@@ -50,6 +50,22 @@ h1{
   font-family: myFirstFont;
   color: black;
 }
+p.desc{
+  margin-top:0px;
+  font-size: 15px;
+  font-family: coachella;
+  color: black;
+  
+}
+img.spotify{
+  width:30px;
+  height: 30px; 
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
 p.first-one{
   font-size:36px;
   line-height: 0px;  

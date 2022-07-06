@@ -2,7 +2,7 @@ import {useEffect, useState} from "react";
 import './App.css';
 import React from 'react';
 import background from "./images/background.jpeg";
-
+import SpotifyLogo from "./images/spotify-logo.png";
 function App() {
     const CLIENT_ID = ""
     const REDIRECT_URI = "https://coachella-lineup.web.app/"
@@ -106,17 +106,21 @@ function App() {
             <div className="bg" style={{ backgroundImage:`url(${background})` }}>
             
     </div>
-                <h1>Coachella LineUp</h1>
+    < img src = {SpotifyLogo} alt="spotify-logo" className="spotify"/>
+                <h1>Coachella</h1>
+                <p className="desc">a coachella line up based on your Top 50 artists</p>
                
                 {!token ?
                     <a href={authUrl}>Login
                         to Spotify</a>
+                        
                    :  <button id="submitButton" onClick={topTracks}>get started</button>
-                  
+                    
                     }
 
                 {token ?	
                      <div>  
+                       
                       <button onClick={logout}>Logout</button> 
                 
                     <div id="song-container">
@@ -126,7 +130,7 @@ function App() {
                        <p className='second-one' id="second-artists"></p>
                        <p className='last-few' id="next-25-artists"></p>
                        <br></br>
-                       <p className='top-genres'>Your top genres</p>
+                       <p className='top-genres' onload={topTracks}>Your top genres</p>
                      </div>
                      
                      
